@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow_admin</class>
+ <widget class="QMainWindow" name="MainWindow_admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Панель администратора</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(118, 227, 131);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>60</y>
+      <width>521</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label_pan_adm">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>Панель администратора</string>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_view_orders">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	color: black;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgb(153, 102, 51);
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Просмотр всех заказов</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_shift_contr">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	color: black;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgb(153, 102, 51);
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Управление сменами</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_reg_new_user">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	color: black;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgb(153, 102, 51);
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Регистрация нового пользователя</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_empl_contr">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	color: black;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgb(153, 102, 51);
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Управление сотрудниками</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_exit">
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid black;
+	color: black;
+}
+
+QPushButton::hover{
+	border-radius: 6px;
+	background-color: rgb(153, 102, 51);
+	color: black;
+}
+
+QPushButton::pressed{
+	border-radius: 6px;
+	background-color: rgb(255, 255, 255);
+	color: black;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Выход</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
